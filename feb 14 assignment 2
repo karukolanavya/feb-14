@@ -1,0 +1,12 @@
+sum=0
+n=int(input("enter any positive number:"))
+while n!=0:
+    sum=sum+n%10
+    n=int(n/10)
+print("sum of digits of number=",sum)
+
+output
+
+enter any positive number:259
+sum of digits of number= 16
+>
