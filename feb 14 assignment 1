@@ -1,0 +1,12 @@
+i=0
+n=int(input('enter a number:'))
+while(n>0):
+    n=n//10
+    i=i+1
+print("total number of digits:",i)
+
+output
+
+enter a number:259
+total number of digits: 3
+>
